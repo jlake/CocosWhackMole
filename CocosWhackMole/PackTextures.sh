@@ -25,7 +25,7 @@ else
         --sheet resources/background-hd.pvr.ccz \
         --dither-fs \
         --opt RGB565 \
-        Art/background/*.jpg
+        Art/background/*.png
 
     ${TP} --smart-update \
         --format cocos2d \
@@ -34,7 +34,7 @@ else
         --dither-fs \
         --scale 0.5 \
         --opt RGB565 \
-        Art/background/*.jpg
+        Art/background/*.png
 
     ${TP} --smart-update \
         --format cocos2d \
@@ -42,7 +42,7 @@ else
         --sheet resources/foreground-hd.pvr.ccz \
         --dither-fs-alpha \
         --opt RGBA4444 \
-        Art/foreground/*.jpg
+        Art/foreground/*.png
 
     ${TP} --smart-update \
         --format cocos2d \
@@ -51,7 +51,7 @@ else
         --dither-fs-alpha \
         --scale 0.5 \
         --opt RGBA4444 \
-        Art/foreground/*.jpg
+        Art/foreground/*.png
 
     ${TP} --smart-update \
         --format cocos2d \
@@ -59,7 +59,7 @@ else
         --sheet resources/sprites-hd.pvr.ccz \
         --dither-fs-alpha \
         --opt RGBA4444 \
-        Art/sprites/*.jpg
+        Art/sprites/*.png
 
     ${TP} --smart-update \
         --format cocos2d \
@@ -68,7 +68,7 @@ else
         --dither-fs-alpha \
         --scale 0.5 \
         --opt RGBA4444 \
-        Art/sprites/*.jpg
+        Art/sprites/*.png
 
 fi
 exit 0
